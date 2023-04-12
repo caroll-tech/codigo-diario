@@ -3,75 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <title>El Faro</title>
+    <link rel="stylesheet" href="./css/Styles.css">
 </head>
 <body>
     <div id="container">
 
         <header>
-         <table> 
-            <tr>
-             <td>
-                <img src="./img/faro.jpg" alt="logo faro"><br>
-                <audio src="./audio/playa_2.mp3" autoplay preload  ></audio>
-             </td>
-             <td>
-                <h1 style="color:black;font-size: 50px;">DIARIO EL FARO</h1>
-                <p style="text-align: center;">Santiago, martes 04 de abril del 2023</p></br>
-             </td>
-        </tr> 
-        </table>      
+         <div id="encabezado">
+                <div id="logo">
+                    <img src="./img/faro.jpg" alt="logo faro">
+                </div>
+                <div id="titulo">
+                    <h1>DIARIO EL FARO</h1>
+                <p>Santiago, martes 04 de abril del 2023</p>
+                </div>
+
+            </div>
+         
         </header>    
+    
         
         <nav>
         <a href="./index.html">Portada</a> | <a href="./deporte.html">Deporte | <a href="./negocio.html">Negocio</a>
-        </nav></br>
+        </nav>
 
        <main>
-        <article>
-            <a id="portada" name="portada"></a>
+
+      
             <h2>Portada</h2>
-
-            <table>
-                <tr>
-                    <td>
-                    <h4>Economía</h4>
-                    <h3>Económica clave</h3>    
-                    Anuncio de tasas de interés, apuestas para <em>Iamcec e IPC. </em></br>El banco Central marcará pauta cuando publique el Imacec de abril este</br>
-                    lunes, difundará su informe de Política Monetaria. Por su parte, el<strong> INE</strong></br>
-                    revelará el dato inflactorio de abril.  </br> </br> </br>
-                    </td>  
-                    <td><img src="./img/Ipc.jpg" alt="logo indice"> </td>        
-                </tr> 
-                <tr>
-                    <td>
-                    <h4>Iteligencia Artificial</h4>
-                    <h3>Cómo las universidades están liadiando con ChatGPT</h3>
-                    <strong>Más exámenes orales, ensayos escritos a mano y tareas en clase:</strong></br> Cómo las universidades están liadiando con ChatGPT
-                    la proleferación </br>de casos en que en esta herramienta de IA se está mal usando para </br>
-                    redactar trabajos académicos está llevando a las instituciones a </br>
-                    reformular sus metodologías de enseñanza y evaluación.Como este bot </br> 
-                    ya puede hacer trabajos para la universidad, algunos profesores están  </br> 
-                    elaborando preguntas que, esperan,sean  demasiado ingeniosas para </br>
-                    ChatGPT, como pedir que escriban sobre sus propias vidas.
-                    </td> 
-                    <td><img src="./img/chatGPT.jpg" alt="logo GPT"></td>
-                </tr> 
-
-                <tr>
-                    <td>
-                    <h4>Nacional</h4>
-                    <h3>Informes ACADES</h3>       
-                    <strong>Proyectos industriales de desalinización en Atacama</br> podrían cambiar el escenario hídrico en Chile.</strong></br>Recientemente, la Asociación Chilena de Desalinización (ACADES)</br>presentó oficialemnte el primer catastro nacional de plantas y proyectos</br>de desalinización de agua de mar en el país.  </br> </br> </br>
-                    </td> 
-                   <td><img src="./img/ProyectoIndustrial.jpg" alt="logo proyecto"></td>
-                 </tr> 
-
-            </table>
-        </article>      
+  
       </main>
+      <article>
+        <div id="noticia">
+            <div id="box-text">
+                <h4>Economía</h4>
+                <h3>Económica clave</h3>    
+               <p> Anuncio de tasas de interés, apuestas para <em>Iamcec e IPC. </em></br>El banco Central marcará pauta cuando publique el Imacec de abril este
+                lunes, difundará su informe de Política Monetaria. Por su parte, el<strong> INE</strong>
+                revelará el dato inflactorio de abril.</p>  
+            </div>
+            <div id="box-img">
+                <img src="./img/Ipc.jpg" alt="logo indice">
+            </div>
 
+        </div>
+
+      </article>
+
+      <article>
+        <div id="noticia">
+            <div id="box-text">
+                <h4>Inteligencia Artificial</h4>
+                    <h3>Cómo las universidades están liadiando con ChatGPT</h3>
+                    <strong>Más exámenes orales, ensayos escritos a mano y tareas en clase:</strong> 
+                    <p>Cómo las universidades están liadiando con ChatGPT
+                    la proleferación de casos en que en esta herramienta de IA se está mal usando para 
+                    redactar trabajos académicos está llevando a las instituciones a 
+                    ya puede hacer trabajos para la universidad, algunos profesores están  
+                    elaborando preguntas que, esperan,sean  demasiado ingeniosas para
+                    ChatGPT, como pedir que escriban sobre sus propias vidas.</p>
+
+
+            </div>
+
+
+            <div id="box-img">
+
+                <img src="./img/chatGPT.jpg" alt="logo GPT">
+
+
+            </div>
+
+        </div>
+      </article>
+
+      <article>
+        <div id="noticia">
+            <div id="box-text">
+
+                <h4>Nacional</h4>
+                    <h3>Informes ACADES</h3>       
+                    <p><strong>Proyectos industriales de desalinización en Atacama podrían cambiar el escenario hídrico en Chile.</strong>Recientemente, la Asociación Chilena de Desalinización (ACADES) presentó oficialemnte el primer catastro nacional de plantas y proyectos de desalinización de agua de mar en el país.</p> 
+
+
+
+
+            </div>
+            <div id="box-img">
+
+                <img src="./img/ProyectoIndustrial.jpg" alt="logo proyecto">
+
+
+            </div>
+
+        </div>
+      </article>
          <footer>
-            <div id="FooterTerminos"> 
+            <div id="footer-terminos"> 
                 <p>
                   <a href="#">Derechos de Autor</a> | 
                   <a href="#">Políticas de Privacidad</a> |

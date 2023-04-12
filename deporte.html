@@ -3,88 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>El Faro</title>
-
+    <link rel="stylesheet" href="./css/Styles.css">
 </head>
 <body>
     <div id="container">
 
         <header>
-         <table> 
-            <tr>
-                <td>
-                   <img src="./img/faro.jpg" alt="logo faro">
-                   <audio src="./audio/playa_2.mp3" autoplay preload></audio>
-                </td>
-                <td>
-                   <h1 style="color:black;font-size: 50px;">DIARIO EL FARO</h1>
-                   <p style="text-align: center;">Santiago, martes 04 de abril del 2023</p></br>
-                </td>
-           </tr> 
-        </table>      
+         <div id="encabezado">
+                <div id="logo">
+                    <img src="./img/faro.jpg" alt="logo faro">
+                </div>
+                <div id="titulo">
+                    <h1>DIARIO EL FARO</h1>
+                <p>Santiago, martes 04 de abril del 2023</p>
+                </div>
+
+            </div>
+         
         </header>    
+    
         
         <nav>
         <a href="./index.html">Portada</a> | <a href="./deporte.html">Deporte | <a href="./negocio.html">Negocio</a>
-        </nav></br>
+        </nav>
 
-    <main>
+       <main>
 
-        <a id="deportes" name="deportes"></a>
-        <h2>DEPORTES</h2>
-        <table>
-            <tr>
-                
-                <td><video src="./videos/video_preview_h264.mp4" width="300" height="200" autoplay="true" controls="true"></video>
-            </td> 
-            <td>
+     
+            <h2>Deporte</h2>
+  
+      </main>
+      <article>
+        <div id="noticia">
+            <div id="box-text">
                 <h4>Basquetbol</h4>
                 <h3>Temporada regular de la NBA.</h3>
-                Se acerca el cierre de la temporada regular de la <em>NBA</em>. La lucha por meterse </br>a playoffs está muy apretada. <strong>Solo hay cuatro de 30 equipos que ya no tienen</br> ninguna opción de clasificar:</strong> Detroit, Houston, Charlotte y San Antonio.</br> Nunca hubo una definición tan apretada en toda la historia de la mejor liga </br>de basquet del mundo.</br>   
-            </td>
-            </tr> 
-
-            <tr>
+            <p>Se acerca el cierre de la temporada regular de la <em>NBA</em>. La lucha por meterse a playoffs está muy apretada. <strong>Solo hay cuatro de 30 equipos que ya no tienen ninguna opción de clasificar:</strong> Detroit, Houston, Charlotte y San Antonio. Nunca hubo una definición tan apretada en toda la historia de la mejor liga de basquet del mundo.</p>   
+            
                 
+            </div>
+            <div id="box-img">
+                <video src="./videos/video_preview_h264.mp4" width="300" height="200" autoplay="true" controls="true"></video>
+            
+            </div>
 
-                <td><img src="./img/rugbistas.jpg" alt="logo rugbistas"> 
-                
-             </td> 
-             <td>
+        </div>
+
+      </article>
+
+      <article>
+        <div id="noticia">
+            <div id="box-text">
                 <h4>Rugby</h4>
                 <h3>Como va Selknam en el Súper Rugby Américas</h3>
-            	Como va Selknam en el Súper Rugby Américas cuando ya va casi la mitad del torneo.</br> La tabla, su próximo desafío y la importancia para los "Cóndores".</br> Los Chilenos de la franquicia buscan ganarse un puesto en Francia 2023.</br> El super Rugby, ya va casi en la mitad y con Selknam, de momento,</br> clasificando a las semifinales.
-            </td>    
-            </tr> 
+            	<p>Como va Selknam en el Súper Rugby Américas cuando ya va casi la mitad del torneo. La tabla, su próximo desafío y la importancia para los "Cóndores". Los Chilenos de la franquicia buscan ganarse un puesto en Francia 2023. El super Rugby, ya va casi en la mitad y con Selknam, de momento, clasificando a las semifinales.</p>  
 
-            <tr>
-                
 
-                <td><img src="./img/balonmano.jpg" alt="logo balonmano"> 
-                
-             </td> 
-             <td>
+            </div>
+
+
+            <div id="box-img">
+
+                <img src="./img/rugbistas.jpg" alt="logo rugbistas">
+
+            </div>
+
+        </div>
+      </article>
+
+      <article>
+        <div id="noticia">
+            <div id="box-text">
+
                 <h4>Balonmano</h4>
                 <h3>El gran momento del balonmano chileno</h3>
-            	<strong>El gran momento del balonmano chileno haciendo historia en mundiales</strong></br>El balonmano Chileno vive un gran momento a nivel de selecciones.</br>Ya en enero el equipo masculino terminó 26° en el Mundial Polonia-Suecia 2023,</br> y hace algunas semanas, la selección femenina clasificó tras 14 años a una cita planetaria.</br>
-            </td>    
-            </tr> 
+            	<p><strong>El gran momento del balonmano chileno haciendo historia en mundiales</strong>El balonmano Chileno vive un gran momento a nivel de selecciones.Ya en enero el equipo masculino terminó 26° en el Mundial Polonia-Suecia 2023, y hace algunas semanas, la selección femenina clasificó tras 14 años a una cita planetaria.</p>
 
 
-        </table>      
-    </main>
+            </div>
+            <div id="box-img">
 
-    <footer>
-        <div id="FooterTerminos"> 
-            <p>
-              <a href="#">Derechos de Autor</a> | 
-              <a href="#">Políticas de Privacidad</a> |
-              <a href="#">Términos y Condiciones de los Servicios ® 2023 Empresa El Faro. </a>
-            </p>
-          </div>
-    </footer>
+                <img src="./img/balonmano.jpg" alt="logo balonmano">
+
+            </div>
+
+        </div>
+      </article>
+         <footer>
+            <div id="footer-terminos"> 
+                <p>
+                  <a href="#">Derechos de Autor</a> | 
+                  <a href="#">Políticas de Privacidad</a> |
+                  <a href="#">Términos y Condiciones de los Servicios ® 2023 Empresa El Faro. </a>
+                </p>
+              </div>
+        </footer>
 
 
-    </div>
+     </div>
+
     
-</body>
+  </body>
 </html>
